@@ -1,7 +1,7 @@
 ##Hands On 2: Procedimiento
 ###Encendiendo la Intel Galileo
 
-+ Ubique lá tarjeta en un lugar seguro, alejado de elementos conductores
++ Ubique la tarjeta en un lugar seguro, alejado de elementos conductores
 + Alimente la tarjeta conectando el adaptador al puerto correspondiente
 
 
