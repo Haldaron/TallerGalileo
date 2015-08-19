@@ -5,6 +5,9 @@ DUTY_CYCLE	= Duracion en nanosegundos del ciclo activo. Puede tomar valores desd
 Export
 	echo -n "[PWM_NUMBER]" >/sys/class/pwm/pwmchip0/export
 
+Enable
+	echo -n "1" >/sys/class/pwm/pwmchip0/pwm[PWM_NUMBER]/enable
+
 Periodo
 	echo -n "[PERIOD]">/sys/class/pwm/pwmchip0/pwm[PWM_NUMBER]/period
 
