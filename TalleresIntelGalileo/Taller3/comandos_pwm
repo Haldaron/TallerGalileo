@@ -6,10 +6,10 @@ Export
 	echo -n "[PWM_NUMBER]" >/sys/class/pwm/pwmchip0/export
 
 Periodo
-	echo -n "[PERIOD]">/sys/class/gpio/gpio[GPIO_NUMBER]/direction
+	echo -n "[PERIOD]">/sys/class/pwm/pwmchip0/pwm[PWM_NUMBER]/period
 
 Ciclo activo
-	echo -n "[DUTY_CYCLE]">/sys/class/gpio/gpio[GPIO_NUMBER]/drive
+	echo -n "[DUTY_CYCLE]">/sys/class/pwm/pwmchip0/pwm[PWM_NUMBER]/duty_cycle
 
 Unexport
 	echo -n "[PWM_NUMBER]" >/sys/class/pwm/pwmchip0/unexport
