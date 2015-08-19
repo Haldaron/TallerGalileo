@@ -5,8 +5,7 @@
 + Descargar la Intel Arduino IDE 1.5.3 disponible en la sección `Previous releases
 + Descomprima el archivo descargado en una carpeta dentro perteneciente a su usuario. Para esto pueden usar el comando:
 ```tar -xvf arduino-linux64-1.0.4.tgz```
-+ Ingrese a la carpeta que acaba de descomprimir y corra el ejecutable de conmbre "arduino". Esto abrira la IDE de arduino para la Intel Galileo
-```cd arduino-1.5.3-Intel.1.0.4``` ```./arduino```
++ Ingrese a la carpeta que acaba de descomprimir y corra el ejecutable de conmbre "arduino". Esto abrira la IDE de arduino para la Intel Galileo: ```cd arduino-1.5.3-Intel.1.0.4; ./arduino```
 + Una vez abierta la interfaz, identifique un botón en la parte superior izquierda de la interfaz cuyo ícono es una flecha hacia la derecha
 + Haga click en este botón. Esto instalará el software de la Galileo en su máquina
 + Cree la ruta de directorios /opt/clanton-tiny/1.4.2/sysroots
