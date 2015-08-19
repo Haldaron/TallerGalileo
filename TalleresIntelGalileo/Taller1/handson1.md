@@ -12,7 +12,7 @@
 
 ###Inicialización de FyleSystem sobre la SD
 
-+ ```sudo mkfs.vfat -F32 /dev/[Nombre Del Dispositivo ][Número de la Partición].``` ```Ej: sudo mkfs.vfat -F32 mmcblk01```
++ ```sudo mkfs.vfat -F32 /dev/[Nombre Del Dispositivo ]p[Número de la Partición].``` ```Ej: sudo mkfs.vfat -F32 mmcblk0p1```
 + Remueva la tarjeta SD del puerto del computador y acto seguido
 + vuelva a insertarla en el mismo lugar.
 + Verifique que Linux efectivamente monta el sistema de archivos de la tarjeta SD al sistema operativo.
