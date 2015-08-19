@@ -1,0 +1,22 @@
+GPIO_NUMBER =Numero del GPIO a modificar.
+DIRECTION 	=Direccion a asignar al GPIO. Puede tomar valores de "in" o "out" 
+DRIVE 		=Modo drive a asignar al GPIO. Puede tomar valores de "pullup", "pulldown", "strong" o "hiz"
+VALUE 		=Valor a asignar al GPIO. Puede tomar valores de "0" o "1"
+
+Export
+	echo -n "[GPIO_NUMBER]" >/sys/class/gpio/export
+
+Direccion
+	echo -n "[DIRECTION]" > /sys/class/gpio/gpio[GPIO_NUMBER]/direction
+
+Drive
+	echo -n "[DRIVE]" > /sys/class/gpio/gpio[GPIO_NUMBER]/drive
+
+Asignar Valor (Solo para GPIOs definidos como salida)
+	echo -n "[VALUE]" > /sys/class/gpio/gpio[GPIO_NUMBER]/value
+
+Leer Valor
+	cat /sys/class/gpio/gpio[GPIO_NUMBER]/value
+
+Unexport
+	echo -n "[GPIO_NUMBER]" >/sys/class/gpio/unexport

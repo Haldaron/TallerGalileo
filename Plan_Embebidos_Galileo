@@ -1,0 +1,58 @@
+=================
+PREREQUISITOS
+=================
+Por Grupo
+	Linux
+	Putty
+	uSD card
+	Ethernet
+
+	1 Intel Galileo
+	1 Protoboard 
+	Resistencias de 330ohms y LEDs.
+
+	Intel Galileo Downloads (SD image and Arduino IDE):
+			http://www.intel.com/support/galileo/sb/CS-035101.htm
+
+- Descripción de la tarjeta (15 mins)
+	- Capacidades del Hardware (Periféricos)(German)
+	- Comparación con otras tarjetas(Daniel)
+
+- Distribuciones Compiladas para la galileo.(10 mins )(German)
+	- Las Distribuciones de la Galileo:
+		- En la flash
+		- La que utilizamos en Robocol
+		- Internet de las cosas
+
+* Preparación del kernel: Formateo de SD. Movilización de la imágen a la SD. (Esperemos un momento, necesitamos poder comunicarnos con la galileo para observar que esta pasando.)(15 mins)(Daniel) 
+
+- Formas de conexión con la galileo (10 mins)
+	- Usb-Rs232 (Daniel)
+	- MicroUSB cliente.(Terminales)-ttys
+	- ssh (Ethernet y Wifi con la de nosotros) (German)
+
+*Como Prender la galileo, precauciones y recomendaciones (20 mins)(Daniel y German)
+Conexión por USB y manejo de Putty(configuracion)-> Booteo de la Galileo y verificación de funcionamiento de la imagen en la SD.
+
+- Manejo de Gpios . Multiplexores Diagrama.(German)
+
+* Manejo básico desde linux de la Galileo con bash(20 mins) 
+	- Comandos básicos de linux en galileo.
+	- GPIOS prender y apagar LEDs.(Con mutex) Echo Malinov
+
+
+=================
+Guia para instalación compilador de Arduino
+=================
+
+- Que es compilación cruzada y compilación nativa (5 mins)
+* Programas básicos sobre la Galileo: (Prender 1 LED)
+	- Script básico sobre Python.
+	- Programa basico en C con compilación cruzada.(fprintf)
+* Pograma avanzado según lo 
+
+
+
+
+
+- Sitios Web. Página Galileo.(Downloads). Malinov

@@ -1,0 +1,15 @@
+PWM_NUMBER 	= Numero del PWM a modificar.
+PERIOD 		= Duracion en nanosegundos del periodo del pwm. Puede tomar valores desde 100000 hasta  7499999
+DUTY_CYCLE	= Duracion en nanosegundos del ciclo activo. Puede tomar valores desde 0 hasta  [PERIOD]
+
+Export
+	echo -n "[PWM_NUMBER]" >/sys/class/pwm/pwmchip0/export
+
+Periodo
+	echo -n "[PERIOD]">/sys/class/gpio/gpio[GPIO_NUMBER]/direction
+
+Ciclo activo
+	echo -n "[DUTY_CYCLE]">/sys/class/gpio/gpio[GPIO_NUMBER]/drive
+
+Unexport
+	echo -n "[PWM_NUMBER]" >/sys/class/pwm/pwmchip0/unexport
